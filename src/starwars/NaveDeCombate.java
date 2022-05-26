@@ -2,12 +2,10 @@ package starwars;
 public class NaveDeCombate extends Nave {
     private int poderDeFogo;
 
-    public int getPoderDeFogo() {
-        return poderDeFogo;
-    }
-
-    public void setPoderDeFogo(int poderDeFogo) {
+    public NaveDeCombate(int id, int poderDeFogo,NaveStatus status) {
+        this.id = id;
         this.poderDeFogo = poderDeFogo;
+        this.naveStatus = status;
     }
     
     
